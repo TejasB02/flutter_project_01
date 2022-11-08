@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text('My Name Is Tejas',
                 style: TextStyle(
                     fontSize: 25.0,
-                    color: Colors.cyanAccent,
+                    color: Colors.cyan,
                     fontWeight: FontWeight.w700,
                     wordSpacing: 4,
                     fontFamily: 'Merriweather')),
