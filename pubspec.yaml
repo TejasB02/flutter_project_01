@@ -1,4 +1,4 @@
-name: flutter_project_01
+name: first_app
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -20,7 +20,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.4 <3.0.0'
+  sdk: '>=2.18.2 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -36,6 +36,13 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+  #redux
+  flutter_redux: ^0.10.0
+  redux: ^5.0.0
+  #pretty stuff
+  font_awesome_flutter: ^10.2.1
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
@@ -57,9 +64,16 @@ flutter:
     - assets/images/Wallpaper02.jpg
 
   fonts:
-    - family: Merriweather
+    - family: IslandMoments
       fonts:
-        - asset: assets/fonts/Merriweather/Merriweather-Regular.ttf
+        - asset: assets/fonts/IslandMoments-Regular.ttf
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+
+
+
+
 
 
   # The following line ensures that the Material Icons font is
